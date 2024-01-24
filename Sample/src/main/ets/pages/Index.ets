@@ -24,7 +24,7 @@ struct TaroMpharmonySample {
   nativeObj: InjectObject = {
     sayHello: () => console.log('Hello World'),
   };
-
+  // 返回
   onBackPress() {
     if (this.taroWebController.accessBackward()) {
       this.taroWebController.backward();
